@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "yourSavings Tracker",
+    "slug": "yourSavingsTracker",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourSavings.Tracker"
+    },
+    "android": {
+      "package": "com.yourSavings.Tracker",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf788d0c-e94f-4e88-8c8b-3700fe2c0070"
+      }
+    }
+  }
+}
